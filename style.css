@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+
+}
+
+#header{
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.header_part1{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.header_part1 h1{
+    font-size: 39px;
+
+}
+.header_part1 h2{
+
+}
+.header_part1 a{
+
+}
+.header_part1 p{
+    text-align: justify;
+
+}
+
+
+.textcolor{
+    color: orange;
+
+    
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(#ff1100,#ff9f00);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.header_part2{
+    width: 50%;
+    padding-left: 5%;
+
+}
+.header_part2 img{
+    width: 80%;
+
+
+}
+#content_area{
+    display: flex;
+    margin-top: 8%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    
+}
+
+.content_part1{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.content_part1 img{
+    width: 80%;
+}
+.content_part2{
+    padding-right: 5%;
+    width: 50%;
+    
+}
+.content_part2 h1{
+    font-size: 39px;
+} 
+
+
+.content_part2 h2{
+    
+}
+.content_part2 p{
+    text-align: justify;  
+}
+
+.content_part2 a{
+    text-decoration: none;
+    background-image: linear-gradient(#ff1100,#ff9f00);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#experience{
+    padding-left: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 120px;
+
+}
+.exper{
+    font-size: 50px;
+
+}
+
+.concept{
+    display: flex;
+
+}
+.concept div{
+   box-shadow: 5px 7px 40px gray;
+   height: 80%;
+   margin: 15px;
+}
+
+.concept h2{
+    color: orange;
+}
+
+
+#concept1{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+    180deg,red,tomato);
+    border-image-slice: 1;
+    text-align: justify;
+    padding: 20px;
+}
+
+#concept2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,tomato);
+    border-image-slice: 1;
+    text-align: justify;
+    padding: 20px;
+    
+}
+footer p{
+    margin-top: 30px;
+    text-align: center;
+}
